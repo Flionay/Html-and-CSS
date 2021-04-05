@@ -7,6 +7,20 @@
         /*ul的第一个子元素*/
         /*ul的第一个元素*/
         /*ul的最后一个子元素*/
+        ul li:first-child{
+            background: blue;
+        }
+        ul li:last-child{
+            background: burlywood;
+        }
+    /*    定位父元素，选择当前的第一个元素*/
+        p:nth-child(1){
+            background: aqua;
+        }
+    /*    选中父元素下，下的P元素中的第二个，选择根据类型选择*/
+        p:nth-of-type(2){
+            background: blueviolet;
+        }
     </style>
 </head>
 <body>
