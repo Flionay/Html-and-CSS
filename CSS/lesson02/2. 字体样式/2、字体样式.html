@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- 
+        font-family: 字体
+        font-size : 
+        font-weight:
+        color:
+     -->
+    <style>
+        body{
+            font-family: 'Times New Roman', 楷体;
+            font-weight: lighter;
+        }
+
+        h1{
+            font-size:35px;
+        }
+
+        p{
+            background-color:honeydew;
+            color: hotpink;
+        }
+    </style>
+</head>
+<body>
+    <h1>LSTM</h1>
+
+    <p>图中空心小圆圈表示矩阵对应元素相乘，又称为Hadamard乘积。这种LSTM结构我们也可以称之为FC-LSTM，因其内部门之间是依赖于类似前馈式神经网络来计算的，而这种FC-LSTM对于时序数据可以很好地处理，但是对于空间数据来说，将会带来冗余性，原因是空间数据具有很强的局部特征，但是FC-LSTM无法刻画此局部特征。本文提出的ConvLSTM尝试解决此问题，做法是将FC-LSTM中input-to-state和state-to-state部分由前馈式计算替换成卷积的形式，</p>
+    <p>ConvLSTM的内部结构如下图所示：</p>
+    
+</body>
+</html>
