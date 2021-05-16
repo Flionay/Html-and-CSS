@@ -1,0 +1,38 @@
+#nav{
+    height:500px;
+    width:300px;
+    
+}
+
+.title{
+    font-size: 13;
+    font-weight: bold;
+    text-indent: 1em;
+    line-height: 30px;
+    color:red;
+    background-color: darkgreen;
+}
+/* ul li */
+
+/* 
+list style
+none 去掉圆点
+circle 空心圆
+decimal 数字
+*/
+
+ul li {
+    height:30px;
+    list-style: decimal;
+}
+a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+
+a:hover {
+    color: hotpink;
+    text-decoration: underline;
+}
+
